@@ -31,9 +31,12 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      String newString = "";
+      for(int i = 0; i < input.length(); i++) {
+        newString += Character.toString((char)(((int)input.charAt(i))+1));
+      }
+      return newString;
     }
-    
     /**
      * Return a string rep of this object
      * that varies with an input string
