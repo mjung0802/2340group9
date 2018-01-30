@@ -32,7 +32,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  Random random = new Random;
+	  Random random = new Random();
 	  char a[] = input.toCharArray();
 	  for (int i=0; i<a.length; i++) {
 	  	int j = random.nextInt(a.length);
